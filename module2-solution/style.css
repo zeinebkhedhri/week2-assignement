@@ -10,7 +10,10 @@ body{
 	background:#F8F8FF;
 	position:relative;
 	border: 1px solid black;
-	
+	width:99%;
+	margin-right:2px;
+	margin-left:2px;
+	margin-top:3px;
 }
 .small {
 	width:175px;
@@ -21,6 +24,7 @@ body{
 	float:right;
 	border:1px solid black;
 }
+
 #color1 {
 	background :#ADD8E6;
 }
@@ -64,7 +68,6 @@ h1{
 @media (min-width:992px) {
 .col-lg-1, .col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
 	float:left;
-	
 }
 .col-lg-1 { width:8.33%; }
 .col-lg-2 { width:16.66%; }
@@ -80,9 +83,10 @@ h1{
 .col-lg-12{ width: 100%; }
 }
 
-@media(min-width:758px) and (max-width: 991px) {
+@media(min-width:768px) and (max-width: 991px) {
 .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 
 {float:right;
+
 }
 .col-md-1 { width:8.33%; }
 .col-md-2 { width:16.66%; }
@@ -100,9 +104,10 @@ h1{
 
 }
 
-@media(max-width: 757px) {
+@media(max-width: 767px) {
 .col-xs-1, .col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 
-{float:right;}
+{float:right;
+}
 .col-xs-1 { width:8.33%; }
 .col-xs-2 { width:16.66%; }
 .col-xs-3 { width:25%; }
